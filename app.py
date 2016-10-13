@@ -23,10 +23,10 @@ def ajax_request():
     username = request.form['username']
     password = request.form['password']
     if username in users.keys():
-        response = "Given user exists"
+        response = '<h3 class="form-response form-signin">Given user exists</h3>'
     else:
         users[username] = password
-        response = "Registration success"
+        response = '<h3 class="form-signin">Registration success</h3>'
     return json.dumps({'response': response})
 
 if __name__=="__main__":
