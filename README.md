@@ -3,7 +3,7 @@
 ### Wymagania:
 
  * Python 2.7
- * Flask
+ * [Flask](http://flask.pocoo.org/)
 
 Aby zainstalować Flask przy pomocy pythonowego pip'a wpisujemy:
 
